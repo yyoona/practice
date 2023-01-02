@@ -4,7 +4,7 @@ body {
     font-family: 'Comfortaa', cursive;
     font-weight: 200;
     /* font-family: 'Spectral', serif; */
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     line-height: 1.4rem;
     color: #000000;
     margin: 0;
@@ -16,7 +16,7 @@ body {
 
 html {
     overflow-y: scroll;
-    cursor: crosshair;
+    cursor: default;
 }
 
 
@@ -161,7 +161,7 @@ img:hover {
 a:link {
     color: Black;
     text-decoration: none;
-    cursor: crosshair;
+    cursor: pointer;
 
 }
 
