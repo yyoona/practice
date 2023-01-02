@@ -2,6 +2,7 @@ body {
     width: 100vw;
     height: 100vh;
     font-family: 'Comfortaa', cursive;
+    font-weight: 200;
     /* font-family: 'Spectral', serif; */
     font-size: 0.7rem;
     line-height: 1.4rem;
@@ -15,6 +16,7 @@ body {
 
 html {
     overflow-y: scroll;
+    cursor: crosshair;
 }
 
 
@@ -29,8 +31,8 @@ main {
     top: 20px;
     grid-template-columns: 1fr 1fr;
     /* grid-template-rows: 100vh auto; */
-    padding: 0px 10px 10px 10px;
-    margin: 4em 2em 2em 2em;
+    padding: 0;
+    margin: 0;
     /* border: 1px solid black; */
     /* border-left: none;
     border-right: none;
@@ -165,13 +167,11 @@ a:link {
 
 #underbar:hover {
     text-decoration: none;
-    cursor: default;
 }
 
 
 a:hover {
-    text-decoration: line-through;
-
+    font-weight: 700;
 
 }
 
